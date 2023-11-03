@@ -1,0 +1,17 @@
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 1%;
+}
+*{
+    background-image: url(bg.jpg);
+}
+*{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h2{
+    text-shadow: 30px;
+}
+*{h2}

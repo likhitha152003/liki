@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Donation Form</title>
+    <link rel="stylesheet" href="ass.css">
+</head>
+<body><center>
+    <h1>Blood Donation Form</h1>
+
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="blood_group">Blood Group:</label>
+        <select id="blood_group" name="blood_group">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select><br><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form></center>
+</body>
+</html>
